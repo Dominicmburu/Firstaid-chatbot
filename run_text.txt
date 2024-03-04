@@ -1,0 +1,7 @@
+gcloud builds submit --tag gcr.io/norse-journey-412116/chat
+
+gcloud run deploy --image gcr.io/norse-journey-412116/chat --platform managed
+
+first deployment:
+1. https://echo-fsz46m7daa-bq.a.run.app
+2. https://chat-fsz46m7daa-bq.a.run.app/chat
